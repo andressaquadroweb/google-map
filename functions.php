@@ -1,4 +1,8 @@
 <?php
+
+//Add Marker Image Size
+add_image_size('marker', 80, 80, true);
+
 //register & enqueue styles & scripts
 add_action('wp_enqueue_scripts', 'enqueue');
 function enqueue(){
