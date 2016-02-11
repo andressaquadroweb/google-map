@@ -1,0 +1,28 @@
+/*
+Theme Name:     Ashley Cameron Design
+Theme URI: 		http://ashley-cameron.com/
+Description:    Custom bootstrap theme
+Author: 		Ashley Cameron Design, Inc
+Author URI: 	http://ashley-cameron.com/
+Version: 		1.0
+License: 		The MIT License (MIT)
+License URI:
+Tags:			dark
+Text Domain: 	ashleycameron
+*/
+
+/* !Google Map */
+	.acf-map {
+		height: 600px;
+		margin: 20px -15px 0;
+	}
+	.acf-map img {
+	   max-width: 150px;
+	    float: left;
+	    border-radius: 6px;
+	    margin: 0 20px 0 0;
+	}
+	.acf-map h3,
+	.acf-map address{color: #15397f;}
+	html, body { height: 100%; margin: 0; padding: 0; }
+    #map { height: 600px; }
